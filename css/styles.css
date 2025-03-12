@@ -3,12 +3,64 @@ ul{
 }
 a{
     text-decoration: none;
+    color:black;
 }
+
+.header-menu {
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.address {
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    color: black;
+    font-size: 18px;
+}
+
+.purple-logo {
+    color: #4d5ae5;
+}
+
+/* ---------------------HEADER--------------------------- */
+
 body{ 
             font-family: "Roboto", sans-serif;
             font-optical-sizing: auto;
-            font-weight: <weight>;
+            font-weight: 400;
             font-style: normal;
             font-variation-settings:
-                "wdth" 100;
+                "wdth" 400,500,700;
+}
+
+.paragraph {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.master {
+    font-weight: 700;
+    font-size: 56px;
+    font-family: "var", sans-serif; 
+}
+
+.master-2 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.master-3 {
+    font-weight: 500;
+    font-size: 20px;
 }
