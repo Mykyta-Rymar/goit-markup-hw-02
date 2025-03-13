@@ -10,12 +10,14 @@ a{
     color: black;
     font-size: 16px;
     font-weight: 500;
+    color: #2e2f42;
 }
 
 .address {
     font-size: 16px;
     color: black;
     font-weight: 400;
+    color: #2e2f42;
 }
 
 .logo {
@@ -25,12 +27,17 @@ a{
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
-    color: black;
+    color: #4d5ae5;
     font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
 }
 
-.purple-logo {
-    color: #4d5ae5;
+.dark-logo {
+    color: #2e2f42;
+    line-height: 1.17
 }
 
 /* ---------------------HEADER--------------------------- */
@@ -54,7 +61,12 @@ body{
 .master {
     font-weight: 700;
     font-size: 56px;
+    color: white;
     font-family: "var", sans-serif; 
+}
+
+.master-section {
+        background-color: #2e2f42;
 }
 
 .master-2 {
@@ -65,4 +77,35 @@ body{
 .master-3 {
     font-weight: 500;
     font-size: 20px;
+}
+
+/* ----------------FOOTER----------------- */
+
+.footer {
+    background-color: #2e2f42;
+}
+
+.logo-footer {
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+        font-size: 18px;
+        line-height: 1.17
+}
+
+.white-logo-footer {
+        color: #f4f4fd;
+        line-height: 1.17
+}
+
+.paragraph-footer {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
 }
