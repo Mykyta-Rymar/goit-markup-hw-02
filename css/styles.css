@@ -7,17 +7,23 @@ a{
 }
 
 .header-menu {
-    color: black;
-    font-size: 16px;
     font-weight: 500;
-    color: #2e2f42;
+    font-size: 16px;
+
+    /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
 }
 
 .address {
-    font-size: 16px;
-    color: black;
     font-weight: 400;
-    color: #2e2f42;
+    font-size: 16px;
+    font-style: normal;
+    /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .logo {
@@ -25,8 +31,7 @@ a{
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
+    font-variation-settings:"wdth" 100;
     color: #4d5ae5;
     font-size: 18px;
     line-height: 1.17;
@@ -37,7 +42,18 @@ a{
 
 .dark-logo {
     color: #2e2f42;
-    line-height: 1.17
+    line-height: 1.17;
+}
+
+.button {
+    font-weight: 500;
+        font-size: 16px;
+    
+        /* line-height: 24px; */
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: white;
+        background-color: #4d5ae5;
 }
 
 /* ---------------------HEADER--------------------------- */
@@ -56,27 +72,70 @@ body{
 .paragraph {
     font-weight: 400;
     font-size: 16px;
+
+    /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .master {
-    font-weight: 700;
+font-weight: 700;
     font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
     color: white;
-    font-family: "var", sans-serif; 
 }
-
+/* navy blue */
 .master-section {
         background-color: #2e2f42;
 }
 
 .master-2 {
-    font-weight: 700;
+font-weight: 700;
     font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
 }
 
-.master-3 {
+.master-team {
+font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.master-features {
+    font-weight: 500;
+        font-size: 20px;
+        /* line-height: 24px; */
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.paragraph-1 {
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    /* slate */
+    color: #434455;
+}
+
+.master-4 {
     font-weight: 500;
     font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 /* ----------------FOOTER----------------- */
@@ -94,12 +153,14 @@ body{
         font-variation-settings:
             "wdth" 100;
         font-size: 18px;
-        line-height: 1.17
+        line-height: 1.17;
 }
 
 .white-logo-footer {
         color: #f4f4fd;
-        line-height: 1.17
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
 }
 
 .paragraph-footer {
