@@ -23,6 +23,16 @@ a{
     color: #434455;
 }
 
+.address-mail:hover,
+.address-mail:focus {
+    color: #404bbf;
+}
+
+.address-tel:hover,
+.address-tel:focus {
+    color: #404bbf;
+}
+
 .address-mail {
     font-weight: 400;
         font-size: 16px;
@@ -80,11 +90,14 @@ body{
     letter-spacing: 0.04em;
     color: white;
     background-color: #4d5ae5;
+    font-family: "Roboto", sans-serif;
 }
 
-button:hover {
-    color:#404bbf;
-
+.button:hover,
+.button:focus {
+    color: #ffffff;
+    background-color: #404BBF;
+    cursor: pointer;
 }
 
 .paragraph {
@@ -93,6 +106,16 @@ button:hover {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.master-2.Features {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+        text-transform: capitalize;
 }
 
 .master {
