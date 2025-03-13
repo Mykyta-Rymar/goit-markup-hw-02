@@ -9,21 +9,36 @@ a{
 .header-menu {
     font-weight: 500;
     font-size: 16px;
-
-    /* line-height: 24px; */
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
+    color: #2e2f42;
 }
 
 .address {
     font-weight: 400;
     font-size: 16px;
     font-style: normal;
-    /* line-height: 24px; */
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.address-mail {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+        font-style: normal;
+}
+
+.address-tel {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+        font-style: normal;
 }
 
 .logo {
@@ -45,17 +60,6 @@ a{
     line-height: 1.17;
 }
 
-.button {
-    font-weight: 500;
-        font-size: 16px;
-    
-        /* line-height: 24px; */
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: white;
-        background-color: #4d5ae5;
-}
-
 /* ---------------------HEADER--------------------------- */
 
 body{ 
@@ -69,11 +73,23 @@ body{
             background-color:#FFFFFF;
 }
 
+.button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: white;
+    background-color: #4d5ae5;
+}
+
+button:hover {
+    color:#404bbf;
+
+}
+
 .paragraph {
     font-weight: 400;
     font-size: 16px;
-
-    /* line-height: 24px; */
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -82,7 +98,7 @@ body{
 .master {
 font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: white;
@@ -95,10 +111,11 @@ font-weight: 700;
 .master-2 {
 font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .master-team {
@@ -113,7 +130,6 @@ font-weight: 500;
 .master-features {
     font-weight: 500;
         font-size: 20px;
-        /* line-height: 24px; */
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
@@ -122,7 +138,6 @@ font-weight: 500;
 .paragraph-1 {
     font-weight: 400;
     font-size: 16px;
-    /* line-height: 24px; */
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
@@ -154,6 +169,8 @@ font-weight: 500;
             "wdth" 100;
         font-size: 18px;
         line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
 }
 
 .white-logo-footer {
