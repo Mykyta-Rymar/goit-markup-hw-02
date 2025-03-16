@@ -124,10 +124,18 @@ body{
 }
 
 .section-3{
-background-color: #F4F4FD;
+background-color: #FFFFFF
 }
 
 .list-3 {
+    background-color: #FFFFFF;
+}
+
+.list-team {
+    background-color: #FFFFFF;
+}
+
+.master-team {
     background-color: #FFFFFF;
 }
 
