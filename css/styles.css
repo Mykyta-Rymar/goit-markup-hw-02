@@ -113,7 +113,7 @@ body{
     color: #434455;
 }
 
-.master-2-Features {
+.master-features {
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -123,7 +123,7 @@ body{
         text-transform: capitalize;
 }
 
-.section-3 {
+.section-team {
     background-color: #F4F4FD;
 }
 
@@ -165,7 +165,7 @@ font-weight: 700;
         background-color: #2e2f42;
 }
 
-.master-2-hero {
+.master-team {
 font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -184,7 +184,7 @@ font-weight: 500;
     color: #2e2f42;
 }
 
-.master-featuers {
+.hero-features {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -192,17 +192,7 @@ font-weight: 500;
         color: #2e2f42;
 }
 
-.paragraph-1 {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
-    /* slate */
-    color: #434455;
-}
-
-.master-4 {
+.master-portfolio {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
